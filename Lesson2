@@ -1,0 +1,26 @@
+# Printing Exercise
+#Variables for int foat and complex
+intergral = int(13)
+floatnumber = float(26.26)
+complex = complex(13, 13)
+print (intergral)
+print(floatnumber)
+print (complex)
+my_string = "Hello"
+print (my_string)
+bool = bool(10 > 9)
+print (bool)
+x = None
+print (x)
+#Prints all the values together
+print(f' {intergral}{floatnumber}{complex}{bool} {x} {my_string} ')
+
+#Input Exercise
+word=input("skriv ett ord ")
+print (f'{word}')
+int_value = int(input("write integer value: "))
+print(int_value * 2)
+word2 = input('write a word: ')
+print(word2 * 2)
+float_number = float(input('write a float value: '))
+print(float_number / 3.5)
